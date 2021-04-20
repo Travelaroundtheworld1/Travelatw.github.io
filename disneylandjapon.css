@@ -1,0 +1,65 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 100%;
+    background-color: darkslateblue;
+}
+nav > ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
+}
+nav > ul > li > a{
+    padding: 50px 50px;
+    color: white;
+}
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+nav li{
+    list-style-type: none;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+
+    }
+
+
+
+.mhome:hover{
+   
+    background-color: yellow;
+}
+.mdisneylandjapon:hover{
+   
+    background-color: yellow;
+}
+.mMuseecivilisationnoire:hover{
+   
+    background-color: yellow;
+}
+.mtdp:hover{
+   
+    background-color: yellow;
+}
+.mcitéinterdite:hover{
+   
+    background-color: yellow;
+
+   
+    
+    margin:0px;
+    }
+    
+
+  
